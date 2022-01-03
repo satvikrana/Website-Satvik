@@ -1,0 +1,68 @@
+html
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header>h1
+{
+    font-weight: 350;
+}
+header
+{
+    display: flex;       /*Used to make the text move sideways rather than downwards*/   
+    justify-content: space-between;      /*Used to give space between the text*/
+    margin: 0 3rem;
+}
+li
+{
+    list-style: none;
+    font-size: 1.5rem;
+}
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav
+{
+    position: relative;      /*Used to define position according to ourselves*/
+    top: 1rem;               /*We defined position of the nav elements*/
+    width: 22rem;
+}
+.showcase_img
+{
+    width: 95vw;    /*vw means view-width. This will take the % of the screen automatically. This is called responsiveness*/
+    margin: 1rem;
+}
+article
+{
+    display: flex;
+    margin: 1.5rem;
+}
+.container
+{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+p
+{
+    font-size: 1.5rem;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+a:hover
+{
+    color:darkorange;
+}
+a
+{
+    text-decoration: none;
+}
